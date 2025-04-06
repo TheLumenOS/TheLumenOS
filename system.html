@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LumenOS - System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="os-window">
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="documents.html">Documents</a>
+            <a href="settings.html">Settings</a>
+            <a href="system.html">System</a>
+            <a href="logout.html">Logout</a>
+        </div>
+
+        <h2>System Check</h2>
+        <p>System Check in Progress...</p>
+        <button onclick="reboot()">Reboot OS</button>
+    </div>
+
+    <script>
+        function reboot() {
+            alert('Rebooting... Please wait.');
+            window.location.reload(); // Simulate reboot by refreshing the page
+        }
+    </script>
+</body>
+</html>
